@@ -1,0 +1,26 @@
+{
+  "name": "fiber",
+  "version": "0.1.0",
+  "description": "Shared context + agent-to-agent coordination for Claude Code instances working on one project",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "fiber": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "convex"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.15.0",
+    "convex": "^1.25.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "typescript": "^5.8.0"
+  }
+}

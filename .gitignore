@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.env.local
+.env
+fiber-approvals.html
+*.log
