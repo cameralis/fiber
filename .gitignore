@@ -4,3 +4,4 @@ dist/
 .env
 fiber-approvals.html
 *.log
+FRIEND-SETUP.md
